@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">my@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="FIRSTNAME LASTNAME">FIRSTNAME LASTNAME</h1>
+                </div>
+                <h2 class="subtitle">RESEARCHER <span class="accent">|</span> DEVELOPER <span class="accent">|</span> INNOVATOR</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/linkedin-id" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:email-address@outlook.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Result-driven graduate with 2+ years of work experience seeking full-time roles in Robotics & AI. Proven track record in developing AI-controlled robots, optimizing algorithms, and leading teams to success in international competitions.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">john@research:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: email-address@outlook.com</p>
+                                <p>Phone: +1 (000) 000 0000</p>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">MS in Robotics and Autonomous Systems</div>
+                            <div class="item-date">May 2024</div>
+                        </div>
+                        <div class="item-subtitle">Arizona State University</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">B.Tech in Mechanical Engineering</div>
+                            <div class="item-date">Aug 2022</div>
+                        </div>
+                        <div class="item-subtitle">Indian Institute of Technology Patna</div>
+                        <div class="item-thesis">
+                            <strong>Thesis:</strong> Bachelor’s Capstone Project in Mechanical Department
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Solutions Architect Intern (Robotics & RL Specialist)</div>
+                            <div class="item-date">May 2023 - Aug 2023</div>
+                        </div>
+                        <div class="item-subtitle">Brainchip</div>
+                        <ul class="item-description">
+                            <li>Implemented 3D models and ROS-joints controlled through Q-Learning, RL model operated on AKD1000 Chip.</li>
+                            <li>Accelerated development by 40%, delivered a fully functional AI-controlled robot from scratch.</li>
+                            <li>Engineered the swift transition of neural network designs from TF to BrainChip’s MetaTF framework.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Q-Learning</span>
+                            <span class="technique-tag">RL</span>
+                            <span class="technique-tag">AKD1000 Chip</span>
+                            <span class="technique-tag">MetaTF</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Robotic Software Engineer Intern</div>
+                            <div class="item-date">May 2020 - Aug 2020</div>
+                        </div>
+                        <div class="item-subtitle">Indian Institute of Technology Bombay</div>
+                        <ul class="item-description">
+                            <li>Led an 8-person team to develop a fiducial-marker-based localization model for an unstable camera feed.</li>
+                            <li>Optimized the localization model using V-rep for real-time camera feeds, achieved a calibration error of ≤0.5%.</li>
+                            <li>Orchestrated design, combined rule-based script and unit tested to validate auto-evaluators with 95% coverage.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">V-rep</span>
+                            <span class="technique-tag">Localization</span>
+                            <span class="technique-tag">Calibration</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Robotic Engineer (Co-Founder and Team Lead)</div>
+                            <div class="item-date">Aug 2019 - July 2020</div>
+                        </div>
+                        <div class="item-subtitle">e-Yantra</div>
+                        <ul class="item-description">
+                            <li>Coordinated a 4-member team to National Finalist Status (Top 0.3%), built a multi-tasking robot from scratch.</li>
+                            <li>Optimized pathfinding (A* & Dijkstra) algo. & actions, reduced execution time by 22%, enabled faster navigation.</li>
+                            <li>Integrated IR, proximity sensors for perception & encoder motors, Servos for autonomous actions | Used CNC.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">A*</span>
+                            <span class="technique-tag">Dijkstra</span>
+                            <span class="technique-tag">IR Sensors</span>
+                            <span class="technique-tag">CNC</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Robotic Engineer (Team Member)</div>
+                            <div class="item-date">Jan 2019 - Feb 2020</div>
+                        </div>
+                        <div class="item-subtitle">ABU Robocon 2020</div>
+                        <ul class="item-description">
+                            <li>Directed team efforts, achieved top 15 (national) in ABU Robocon Stage 1 through innovative robot design.</li>
+                            <li>Engineered a 3-wheeled omni-drive system, achieved precise movement in any direction for the Pass Robot.</li>
+                            <li>Modelled throwing hand compliance with pneumatics parameters using the Catapult mechanism and deployed.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Omni-drive</span>
+                            <span class="technique-tag">Pneumatics</span>
+                            <span class="technique-tag">Catapult</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Home-Delivery Bot</h3>
+                        <p class="project-duration">Dec 2022 - April 2023</p>
+                        <p class="project-description">Developed a robot in Gazebo (ROS) & integrated with feedback control for state dynamics. Implemented SLAM and sensor fusion (Rotary Encoder, Odom & IMU) for navigation & deployed AMCL.</p>
+                        <div class="project-tech">
+                            <span>Gazebo</span>
+                            <span>ROS</span>
+                            <span>SLAM</span>
+                            <span>Sensor Fusion</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">IEEE Paper –Control Systems Society Conference</h3>
+                        <p class="project-duration">Jan 2023 - Jan 2024</p>
+                        <p class="project-description">Distributed RHC approach for multi-agent systems with privacy and maintained MTL specifications. Utilized Kalman filter equations and MILP to encode MTL specifications as constraints.</p>
+                        <div class="project-tech">
+                            <span>Kalman Filter</span>
+                            <span>MILP</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Visual Tracking UAV - Mambo Drone</h3>
+                        <p class="project-duration">Jan 2023 - April 2023</p>
+                        <p class="project-description">Developed a high-performance, low-level flight control algorithm with an integrated Kalman Filter for a Drone. Championed an optimized red color detection algorithm, slashed processing time by 30%, and improved efficiency.</p>
+                        <div class="project-tech">
+                            <span>Kalman Filter</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Meta’s Research Enhancement – Object Goal Navigation</h3>
+                        <p class="project-duration">Jan 2023 - April 2023</p>
+                        <p class="project-description">Integrated YOLOv7 and performance enhancements led to a 7% success rate boost in object goal navigation. Engaged with a deep RL model, leveraged On Policy. Integrated RRT to path planning replaced Fast Marching.</p>
+                        <div class="project-tech">
+                            <span>YOLOv7</span>
+                            <span>RRT</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Dc-GANs (Deep Convolutional Generative Adversarial Network) – Fashion MNIST</h3>
+                        <p class="project-duration">Nov 2022 - Dec 2022</p>
+                        <p class="project-description">Devised a DcGAN architecture & successfully trained within 50 epochs to generate realistic synthetic images. Attained an impressive DcGAN loss rate of 0.014 for the generator model.</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Robotic Arm – Singularity Analysis</h3>
+                        <p class="project-duration">Nov 2022 - Dec 2022</p>
+                        <p class="project-description">Utilized Applied Inverse Kinematics to analyze a 6-DoF robotic arm, achieved a 99.9% singularity avoidance. Implemented Trajectory Planner for a Kinova Gen3 robotic arm, optimized the trajectory within the Space.</p>
+                        <div class="project-tech">
+                            <span>Inverse Kinematics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C/C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C#</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>embedded C</span>
+                            </div>
+                            <div class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Tensorflow</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Pytorch</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>ROS 1/2</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>Gazebo</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>V-Rep</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Honors & Awards</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="awards-container" id="awards-container">
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">National Finalist Status (Top 0.3%)</div>
+                        </div>
+                        <div class="item-subtitle">e-Yantra</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:email-address@outlook.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>email-address@outlook.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/linkedin-id" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/linkedin-id</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 FIRSTNAME LASTNAME | Researcher & Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://portfolio.github.io" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/linkedin-id" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:email-address@outlook.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animate terminal cursor
+        setInterval(() => {
+            const cursors = document.querySelectorAll('.terminal-cursor');
+            cursors.forEach(cursor => {
+                cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            });
+        }, 500);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
